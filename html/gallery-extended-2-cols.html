@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<html lang="en" class="no-js">
+
+<head>
+	<title>Organic</title>
+	<meta charset="utf-8">
+	<!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <![endif]-->
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+	
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<!-- Style -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css" id="color-switcher-link">
+	<link rel="stylesheet" href="css/animations.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<script src="js/modernizr-2.6.2.min.js"></script>
+
+	<!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+  <![endif]-->
+
+</head>
+
+<body>
+	<!--[if lt IE 9]>
+      <div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
+  <![endif]-->
+
+	<div class="preloader">
+		<div class="thecube">
+			<div class="cube c1"></div>
+			<div class="cube c2"></div>
+			<div class="cube c4"></div>
+			<div class="cube c3"></div>
+		</div>
+	</div>
+
+	<!-- Search modal -->
+	<div class="modal" tabindex="-1" aria-labelledby="search_modal" id="search_modal">
+		<div class="header-search">
+			<form method="get" class="searchform form-inline" action="">
+				<div class="form-group">
+					<input type="text" value="" name="search" class="form-control search-input" placeholder="Search keyword" id="modal-search-input">
+				</div>
+				<button type="submit" class="s_theme_button">Search</button>
+			</form>
+		</div>
+	</div>
+	<div id="canvas">
+		<div id="box_wrapper">
+			<!-- Logo: contains logo in various header layouts -->
+			<div class="ls page_toplogo section_padding_top_25 section_padding_bottom_10 table_section">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-4 text-left text-sm-center">
+							<ul class="social-list">
+								<li>
+									<a href="gallery-extended-2-cols.html#">
+										<i class="soc__pinterest"></i>
+									</a>
+								</li>
+								<li>
+									<a href="gallery-extended-2-cols.html#">
+										<i class="soc__instagram"></i>
+									</a>
+								</li>
+								<li>
+									<a href="gallery-extended-2-cols.html#">
+										<i class="soc__google"></i>
+									</a>
+								</li>
+								<li>
+									<a href="gallery-extended-2-cols.html#">
+										<i class="soc__twitter"></i>
+									</a>
+								</li>
+								<li>
+									<a href="gallery-extended-2-cols.html#">
+										<i class="soc__facebook"></i>
+									</a>
+								</li>
+								<li>
+									<a href="gallery-extended-2-cols.html#">
+										<i class="soc__dribbble"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-lg-4 text-center">
+							<div class="logo">
+								<a href="index.html">
+									<img src="images/logo.png" alt="">
+								</a>
+							</div>
+						</div>
+						<div class="col-lg-4 text-right text-sm-center">
+							<address class="contact-block text-right text-sm-center">
+								<p class="contact-block__address">4 Main Street, SA 007200</p>
+								<p class="contact-block__phone">
+									<span>800</span> 516 3290</p>
+								<p class="contact-block__work-time">9:00 A.M. - 5:00 P.M.</p>
+							</address>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Header: contains site site Main Menu -->
+			<div class="ls">
+				<header class="page_header">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-lg-3 col-md-3 col-sm-2 col-xs-12"></div>
+							<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12 text-sm-center">
+								<span class="toggle_menu">
+									<span></span>
+								</span>
+								<!-- Main navigation start -->
+								<nav class="mainmenu_wrapper">
+									<ul class="mainmenu nav sf-menu text-center">
+										<li class="active">
+											<a href="index.html">Home</a>
+											<ul>
+												<li>
+													<a href="index.html">Home page type 1</a>
+												</li>
+												<li>
+													<a href="index-2.html">Home page type 2</a>
+												</li>
+											</ul>
+										</li>
+
+										<!-- Shop -->
+										<li>
+											<a href="shop-type-1.html">Products</a>
+											<ul>
+												<li>
+													<a href="shop-type-1.html">Shop page 1</a>
+												</li>
+												<li>
+													<a href="shop-type-2.html">Shop page 2</a>
+												</li>
+												<li>
+													<a href="shop-single-item.html">Single item</a>
+												</li>
+												<li>
+													<a href="shop-cart-right.html">Shopping cart</a>
+												</li>
+												<li>
+													<a href="shop-checkout-right.html">Checkout</a>
+												</li>
+												<li>
+													<a href="shop-register.html">Registration</a>
+												</li>
+											</ul>
+										</li>
+
+										<!-- Gallery -->
+										<li>
+											<a href="gallery-regular-3-cols.html">Gallery</a>
+											<ul>
+												<li>
+													<a href="gallery-extended-2-cols.html">Gallery extended</a>
+													<ul>
+														<li>
+															<a href="gallery-extended-1-cols.html">1 colonum</a>
+														</li>
+														<li>
+															<a href="gallery-extended-2-cols.html">2 colonum</a>
+														</li>
+														<li>
+															<a href="gallery-extended-3-cols.html">3 colonum</a>
+														</li>
+														<li>
+															<a href="gallery-extended-4-cols.html">4 colonum</a>
+														</li>
+													</ul>
+												</li>
+												<li>
+													<a href="gallery-fullwidth-4-cols.html">Gallery Full Width</a>
+													<ul>
+														<li>
+															<a href="gallery-fullwidth-2-cols.html">2 colonum</a>
+														</li>
+														<li>
+															<a href="gallery-fullwidth-3-cols.html">3 colonum</a>
+														</li>
+														<li>
+															<a href="gallery-fullwidth-4-cols.html">4 colonum</a>
+														</li>
+													</ul>
+												</li>
+												<li>
+													<a href="gallery-regular-3-cols.html">Gallery Regular</a>
+													<ul>
+														<li>
+															<a href="gallery-regular-1-cols.html">1 colonum</a>
+														</li>
+														<li>
+															<a href="gallery-regular-2-cols.html">2 colonum</a>
+														</li>
+														<li>
+															<a href="gallery-regular-3-cols.html">3 colonum</a>
+														</li>
+														<li>
+															<a href="gallery-regular-4-cols.html">4 colonum</a>
+														</li>
+													</ul>
+												</li>
+												<li>
+													<a href="gallery-masonry-type1.html">Masonry</a>
+													<ul>
+														<li>
+															<a href="gallery-masonry-type1.html">Type 1</a>
+														</li>
+														<li>
+															<a href="gallery-masonry-type2.html">Type 2</a>
+														</li>
+													</ul>
+												</li>
+												<li>
+													<a href="gallery-single.html">Gallery single item</a>
+												</li>
+											</ul>
+										</li>
+
+										<!-- Blog -->
+										<li>
+											<a href="blog-right.html" data-target="#blog">Blog</a>
+											<ul>
+												<li>
+													<a href="blog-right.html">Right sidebar</a>
+												</li>
+												<li>
+													<a href="blog-left.html">Left sidebar</a>
+												</li>
+												<li>
+													<a href="blog-fullwidth.html">Fullwidth</a>
+												</li>
+												<li>
+													<a href="blog-video-right.html">Video</a>
+													<ul>
+														<li>
+															<a href="blog-video-right.html">Sidebar right</a>
+														</li>
+														<li>
+															<a href="blog-video-left.html">Sidebar left</a>
+														</li>
+														<li>
+															<a href="blog-video-fullwidth.html">Single fullwidth</a>
+														</li>
+													</ul>
+												</li>
+												<li>
+													<a href="blog-single-right.html">Single</a>
+													<ul>
+														<li>
+															<a href="blog-single-right.html">Sidebar right</a>
+														</li>
+														<li>
+															<a href="blog-single-left.html">Sidebar left</a>
+														</li>
+														<li>
+															<a href="blog-single-fullwidth.html">Single fullwidth</a>
+														</li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+
+										<!-- Pages -->
+										<li>
+											<a href="about.html">Pages</a>
+											<ul>
+												<li>
+													<a href="gallery-extended-2-cols.html#">Shortcodes &amp; Widgets</a>
+													<ul>
+														<li>
+															<a href="shortcodes_icons.html">Icons</a>
+														</li>
+														<li>
+															<a href="shortcodes_socialicons.html">Social icons</a>
+														</li>
+														<li>
+															<a href="shortcodes_animation.html">Animation</a>
+														</li>
+														<li>
+															<a href="shortcodes_progress.html">Progress bars</a>
+														</li>
+														<li>
+															<a href="shortcodes_tabs.html">Tabs</a>
+														</li>
+														<li>
+															<a href="shortcodes_bootstrap.html">Bootstrap elements</a>
+														</li>
+														<li>
+															<a href="shortcodes_widgets.html">Widgets</a>
+														</li>
+													</ul>
+												</li>
+												<li>
+													<a href="header-type-01.html">Headers</a>
+													<ul>
+														<li>
+															<a href="header-type-01.html">Header type 1</a>
+														</li>
+														<li>
+															<a href="header-type-02.html">Header type 2</a>
+														</li>
+														<li>
+															<a href="header-type-03.html">Header type 3</a>
+														</li>
+													</ul>
+												</li>
+												<li>
+													<a href="breadcrumbs-type-01.html">Breadcrumbs</a>
+													<ul>
+														<li>
+															<a href="breadcrumbs-type-01.html">Type 1</a>
+														</li>
+														<li>
+															<a href="breadcrumbs-type-02.html">Type 2</a>
+														</li>
+														<li>
+															<a href="breadcrumbs-type-03.html">Type 3</a>
+														</li>
+													</ul>
+												</li>
+												<li>
+													<a href="about.html">About</a>
+												</li>
+												<li>
+													<a href="typography.html">Typography</a>
+												</li>
+												<li>
+													<a href="team.html">Team</a>
+												</li>
+												<li>
+													<a href="404.html">404</a>
+												</li>
+												<li>
+													<a href="appointment.html">Appointment</a>
+												</li>
+												<li>
+													<a href="services.html">Services</a>
+												</li>
+												<li>
+													<a href="pricing.html">Pricing</a>
+												</li>
+												<li>
+													<a href="member_profile.html">Member profile</a>
+												</li>
+											</ul>
+										</li>
+
+										<!-- Contact -->
+										<li>
+											<a href="contact-01.html" data-target="#contact">Contacts</a>
+										</li>
+									</ul>
+								</nav>
+								<!-- eof main nav -->
+							</div>
+							<div class="col-lg-3 col-md-3 col-sm-2 col-xs-12 text-right text-sm-center">
+								<div class="shopping-cart">
+									<a class="shopping-cart__content header-button" id="cart" data-target="#" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										<span class="shopping-cart__info">(2)</span>
+										<i class="fa fa-shopping-basket" aria-hidden="true"></i>
+									</a>
+									<div class="shopping-cart__list dropdown-menu" aria-labelledby="cart">
+										<span class="grey">Recently added item(s)</span>
+										<div class="widget widget_shopping_cart">
+
+											<div class="widget_shopping_cart_content">
+												<ul class="cart_list product_list_widget media-list darklinks">
+													<li class="media">
+														<div class="media-left media-middle">
+															<a href="shop-single-item.html">
+																<img src="images/shop/shop_img-01.jpg" alt="">
+															</a>
+														</div>
+														<div class="media-body media-middle">
+															<h4>
+																<a href="shop-single-item.html">Stet clitad gubergren</a>
+															</h4>
+															<span class="quantity">1 ×
+																<span class="amount">$90</span>
+															</span>
+														</div>
+														<div class="media-body media-middle">
+															<a href="gallery-extended-2-cols.html#" class="remove" title="Remove this item">
+																<i class="rt-icon2-trash highlight"></i>
+															</a>
+														</div>
+													</li>
+													<li class="media">
+														<div class="media-left media-middle">
+															<a href="shop-single-item.html">
+																<img src="images/shop/shop_img-02.jpg" alt="">
+															</a>
+														</div>
+														<div class="media-body media-middle">
+															<h4>
+																<a href="shop-single-item.html">Takimata san bctus</a>
+															</h4>
+															<span class="quantity">1 ×
+																<span class="amount">$90</span>
+															</span>
+														</div>
+														<div class="media-body media-middle">
+															<a href="gallery-extended-2-cols.html#" class="remove" title="Remove this item">
+																<i class="rt-icon2-trash highlight"></i>
+															</a>
+														</div>
+													</li>
+												</ul>
+												<!-- end product list -->
+												<p class="total">
+													<span class="grey">Cart Subtotal:
+														<span class="amount">$180</span>
+													</span>
+												</p>
+												<p class="buttons">
+													<a href="shop-cart-right.html" class="button-o_t6">View All</a>
+													<a href="shop-checkout-right.html" class="button-o_t6">Checkout</a>
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<a href="gallery-extended-2-cols.html#" class="search_modal_button serach-button">
+									<i class="rt-icon2-search4"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</header>
+			</div>
+			<!-- Breadcrumbs -->
+			<div class="page_breadcrumbs section_padding_85 breadcrumbs-01 parallax">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<h3 class="breadcrumbs__title text-center">Gallery</h3>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-12">
+							<ul class="breadcrumbs-list text-center">
+								<li>
+									<a href="">Home</a>
+								</li>
+								<li class="active">Extended 2 cols</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Gallery Extended: 2 cols  -->
+			<div class="ls page_portfolio section_padding_top_100 section_padding_bottom_50">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="filters isotope_filters text-left">
+								<a href="gallery-extended-2-cols.html#" data-filter="*" class="selected">All</a>
+								<a href="gallery-extended-2-cols.html#" data-filter=".berries">Berries</a>
+								<a href="gallery-extended-2-cols.html#" data-filter=".eruits">Fruits</a>
+								<a href="gallery-extended-2-cols.html#" data-filter=".vegetables">Vegetables</a>
+								<a href="gallery-extended-2-cols.html#" data-filter=".herbs">Herbs</a>
+							</div>
+						</div>
+					</div>
+					<div class="row isotope_container isotope masonry-layout" data-filters=".isotope_filters">
+						<div class="extended_isotope bottommargin_30 isotope-item col-lg-6 col-md-6 col-sm-6 berries">
+							<div class="vertical-item gallery-extended-item text-center">
+								<div class="item-media">
+									<img src="images/gallery/gallery_01.jpg" alt="">
+									<div class="media-links">
+										<div class="links-wrap">
+											<a class="p-link" title="" href="gallery-single.html"></a>
+											<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="images/gallery/gallery_01.jpg"></a>
+										</div>
+									</div>
+								</div>
+								<div class="item-content">
+									<h3 class="item-title">
+										<a href="gallery-single.html">Lorem ipsum dolor sit</a>
+									</h3>
+									<span class="categories-links">
+										<a rel="category" href="gallery-single.html" class="theme_button small_button color1">garden</a>
+									</span>
+									<div class="item-content__wrapper">
+										<p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Sed porttitor lectus nibh.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="extended_isotope bottommargin_30 isotope-item col-lg-6 col-md-6 col-sm-6 herbs">
+							<div class="vertical-item gallery-extended-item text-center">
+								<div class="item-media">
+									<img src="images/gallery/gallery_02.jpg" alt="">
+									<div class="media-links">
+										<div class="links-wrap">
+											<a class="p-link" title="" href="gallery-single.html"></a>
+											<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="images/gallery/gallery_02.jpg"></a>
+										</div>
+									</div>
+								</div>
+								<div class="item-content">
+									<h3 class="item-title">
+										<a href="gallery-single.html">Sadipscing elitr sed</a>
+									</h3>
+									<span class="categories-links">
+										<a rel="category" href="gallery-single.html" class="theme_button small_button color1">park</a>
+									</span>
+									<div class="item-content__wrapper">
+										<p>Donec sollicitudin molestie malesuada. Nulla porttitor accumsan tincidunt. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="extended_isotope bottommargin_30 isotope-item col-lg-6 col-md-6 col-sm-6 berries">
+							<div class="vertical-item gallery-extended-item text-center">
+								<div class="item-media">
+									<img src="images/gallery/gallery_03.jpg" alt="">
+									<div class="media-links">
+										<div class="links-wrap">
+											<a class="p-link" title="" href="gallery-single.html"></a>
+											<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="images/gallery/gallery_03.jpg"></a>
+										</div>
+									</div>
+								</div>
+								<div class="item-content">
+									<h3 class="item-title">
+										<a href="gallery-single.html">Mauris blandit aliquet</a>
+									</h3>
+									<span class="categories-links">
+										<a rel="category" href="gallery-single.html" class="theme_button small_button color1">lawn</a>
+									</span>
+									<div class="item-content__wrapper">
+										<p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Sed porttitor lectus nibh. Donec rutrum congue leo eget malesuada cras ultricies ligula sed magna dictum porta. </p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="extended_isotope bottommargin_30 isotope-item col-lg-6 col-md-6 col-sm-6 eruits">
+							<div class="vertical-item gallery-extended-item text-center">
+								<div class="item-media">
+									<img src="images/gallery/gallery_04.jpg" alt="">
+									<div class="media-links">
+										<div class="links-wrap">
+											<a class="p-link" title="" href="gallery-single.html"></a>
+											<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="images/gallery/gallery_04.jpg"></a>
+										</div>
+									</div>
+								</div>
+								<div class="item-content">
+									<h3 class="item-title">
+										<a href="gallery-single.html">Vivamus suscipit tortor</a>
+									</h3>
+									<span class="categories-links">
+										<a rel="category" href="gallery-single.html" class="theme_button small_button color1">planting</a>
+									</span>
+									<div class="item-content__wrapper">
+										<p>Proin eget tortor risus. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Curabitur aliquet quam id dui posuere blandit.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="extended_isotope bottommargin_30 isotope-item col-lg-6 col-md-6 col-sm-6 herbs">
+							<div class="vertical-item gallery-extended-item text-center">
+								<div class="item-media">
+									<img src="images/gallery/gallery_05.jpg" alt="">
+									<div class="media-links">
+										<div class="links-wrap">
+											<a class="p-link" title="" href="gallery-single.html"></a>
+											<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="images/gallery/gallery_05.jpg"></a>
+										</div>
+									</div>
+								</div>
+								<div class="item-content">
+									<h3 class="item-title">
+										<a href="gallery-single.html">Curabitur aliquet quam</a>
+									</h3>
+									<span class="categories-links">
+										<a rel="category" href="gallery-single.html" class="theme_button small_button color1">exterior</a>
+									</span>
+									<div class="item-content__wrapper">
+										<p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec sollicitudin molestie malesuada. Nulla quis lorem ut libero malesuada feugiat.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="extended_isotope bottommargin_30 isotope-item col-lg-6 col-md-6 col-sm-6 eruits">
+							<div class="vertical-item gallery-extended-item text-center">
+								<div class="item-media">
+									<img src="images/gallery/gallery_06.jpg" alt="">
+									<div class="media-links">
+										<div class="links-wrap">
+											<a class="p-link" title="" href="gallery-single.html"></a>
+											<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="images/gallery/gallery_06.jpg"></a>
+										</div>
+									</div>
+								</div>
+								<div class="item-content">
+									<h3 class="item-title">
+										<a href="gallery-single.html">Praesent sapien massa</a>
+									</h3>
+									<span class="categories-links">
+										<a rel="category" href="gallery-single.html" class="theme_button small_button color1">irrigation</a>
+									</span>
+									<div class="item-content__wrapper">
+										<p>Curabitur aliquet quam id dui posuere blandit. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Sed porttitor lectus nibh. </p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="extended_isotope bottommargin_30 isotope-item col-lg-6 col-md-6 col-sm-6 vegetables">
+							<div class="vertical-item gallery-extended-item text-center">
+								<div class="item-media">
+									<img src="images/gallery/gallery_07.jpg" alt="">
+									<div class="media-links">
+										<div class="links-wrap">
+											<a class="p-link" title="" href="gallery-single.html"></a>
+											<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="images/gallery/gallery_07.jpg"></a>
+										</div>
+									</div>
+								</div>
+								<div class="item-content">
+									<h3 class="item-title">
+										<a href="gallery-single.html">Praesent sapien massa</a>
+									</h3>
+									<span class="categories-links">
+										<a rel="category" href="gallery-single.html" class="theme_button small_button color1">irrigation</a>
+									</span>
+									<div class="item-content__wrapper">
+										<p>Curabitur aliquet quam id dui posuere blandit. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Sed porttitor lectus nibh. </p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="extended_isotope bottommargin_30 isotope-item col-lg-6 col-md-6 col-sm-6 vegetables">
+							<div class="vertical-item gallery-extended-item text-center">
+								<div class="item-media">
+									<img src="images/gallery/gallery_08.jpg" alt="">
+									<div class="media-links">
+										<div class="links-wrap">
+											<a class="p-link" title="" href="gallery-single.html"></a>
+											<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="images/gallery/gallery_08.jpg"></a>
+										</div>
+									</div>
+								</div>
+								<div class="item-content">
+									<h3 class="item-title">
+										<a href="gallery-single.html">Praesent sapien massa</a>
+									</h3>
+									<span class="categories-links">
+										<a rel="category" href="gallery-single.html" class="theme_button small_button color1">irrigation</a>
+									</span>
+									<div class="item-content__wrapper">
+										<p>Curabitur aliquet quam id dui posuere blandit. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Sed porttitor lectus nibh. </p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- eof .isotope_container.row -->
+				</div>
+			</div>
+
+			<!-- Footer -->
+			<footer class="ls ms page_footer section_padding_top_115 section_padding_bottom_85">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-4 col-md-4 col-sm-12">
+							<div class="widget widget_text">
+								<h3 class="widget-title">Text Widget</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, dolorem, eaque fugit odit obcaecati temporibus est dolor consequatur totam nam facilis soluta maiores eius iste veritatis. Ratione quidem exercitationem quisquam.</p>
+								<ul class="payment-list">
+									<li>
+										<a href="gallery-extended-2-cols.html#">
+											<i class="fa fa-cc-visa" aria-hidden="true"></i>
+										</a>
+									</li>
+									<li>
+										<a href="gallery-extended-2-cols.html#">
+											<i class="fa fa-cc-discover" aria-hidden="true"></i>
+										</a>
+									</li>
+									<li>
+										<a href="gallery-extended-2-cols.html#">
+											<i class="fa fa-cc-mastercard" aria-hidden="true"></i>
+										</a>
+									</li>
+									<li>
+										<a href="gallery-extended-2-cols.html#">
+											<i class="fa fa-cc-amex" aria-hidden="true"></i>
+										</a>
+									</li>
+									<li>
+										<a href="gallery-extended-2-cols.html#">
+											<i class="fa fa-cc-paypal" aria-hidden="true"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-12">
+							<div class="widget widget_latest_blog">
+								<h3 class="widget-title">Latest Blog</h3>
+								<ul>
+									<li>
+										<a href="gallery-extended-2-cols.html#">Lorem ipsum dolor sit amet, consectetur adipisicing elit Ipsam, dolorem, eaque fugit odit obcaecati ...</a>
+									</li>
+									<li>
+										<a href="gallery-extended-2-cols.html#">Lorem ipsum dolor sit amet, consectetur adipisicing elit Ipsam, dolorem, eaque fugit odit obcaecati ...</a>
+									</li>
+									<li>
+										<a href="gallery-extended-2-cols.html#">Lorem ipsum dolor sit amet, consectetur adipisicing elit Ipsam, dolorem, eaque fugit odit obcaecati ...</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-12">
+							<div class="widget widget_menu">
+								<h3 class="widget-title">Navigation</h3>
+								<ul>
+									<li>
+										<a href="gallery-extended-2-cols.html#">Home</a>
+									</li>
+									<li>
+										<a href="gallery-extended-2-cols.html#">Products</a>
+									</li>
+									<li>
+										<a href="gallery-extended-2-cols.html#">Gallery</a>
+									</li>
+									<li>
+										<a href="gallery-extended-2-cols.html#">Blog</a>
+									</li>
+									<li>
+										<a href="gallery-extended-2-cols.html#">Pages</a>
+									</li>
+									<li>
+										<a href="gallery-extended-2-cols.html#">Contacts</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-12">
+							<div class="widget widget_text">
+								<h3 class="widget-title">Useful Links</h3>
+								<ul>
+									<li>
+										<a href="gallery-extended-2-cols.html#">My account</a>
+									</li>
+									<li>
+										<a href="gallery-extended-2-cols.html#">My wishlist</a>
+									</li>
+									<li>
+										<a href="gallery-extended-2-cols.html#">Personal information</a>
+									</li>
+									<li>
+										<a href="gallery-extended-2-cols.html#">Shipping</a>
+									</li>
+									<li>
+										<a href="gallery-extended-2-cols.html#">Return policy</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<!-- Copyright -->
+			<div class="page_copyright copyright-01 table_section section_padding_25">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 text-center">
+							<p>
+								<a href="gallery-extended-2-cols.html#">Copyright 2016</a> - MW Templates. All rights reserved</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Main libs -->
+	<script src="js/compressed.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/plugins.js"></script>
+
+	<!-- Switcher -->
+	<script src="js/switcher.js"></script>
+
+</body>
+
+</html>

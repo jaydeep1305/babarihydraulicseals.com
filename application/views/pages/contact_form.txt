@@ -1,0 +1,51 @@
+<div class="form-group">
+    <label>Your Name<span class="required red-text">*</span></label>
+    <input type="text" name="your_name" id="your_name">
+
+    <label>Your Email<span class="required red-text">*</span></label>
+    <input type="email" name="your_email" id="your_email">
+
+    <label>Your Number</label>
+    <input type="text" name="your_contact" id="your_contact">
+
+    <label>Your Message<span class="required red-text">*</span></label>
+    <textarea name="your_inquiry" id="your_inquiry" class="textarea-message" rows="10"></textarea>
+
+    <div class="text-right">
+    <input type="submit" class="theme-button" id="submit" name="submit" value="Send Message">
+    </div>
+    <div class="fashion_infotext"></div>
+</div>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script>
+$("form").submit(function(e){
+    e.preventDefault();
+});
+$("#submit").click(function(){
+    var your_name = $("#your_name").val();
+    var your_email = $("#your_email").val();
+    var your_contact = $("#your_contact").val();
+    var your_inquiry = $("#your_inquiry").val();
+
+    if(your_inquiry == "" || your_email == "" || your_name == "" )
+    {
+        swal('Sorry!', 'Please Fill All Required* Detail in Form!', 'info');
+    }
+    else
+    {
+        $.ajax({
+          method: "POST",
+          url: "<?php echo base_url(); ?>userinquiry/create/",
+          data: {your_name:your_name,your_email:your_email,your_contact:your_contact,your_inquiry:your_inquiry}
+        })
+        .success(function() {
+            swal('Congrats!', 'Your Inquiry send Successfully....!', 'success');
+            $("#your_name").val("");
+            $("#your_email").val("");
+            $("#your_contact").val("");
+            $("#your_inquiry").val("");
+        });
+    }
+});
+</script>
